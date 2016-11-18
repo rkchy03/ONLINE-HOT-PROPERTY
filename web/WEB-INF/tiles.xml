@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+   "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="/layout" template="/layout.jsp">
+        <put-attribute name="header" value="/header.jsp"/>
+          <put-attribute name="body" value="/body.jsp"/>
+          <put-attribute name="background" value="/background.jsp"/>
+           <put-attribute name="footer" value="/footer.jsp"/>
+    </definition>
+     <definition name="/home" extends="/layout">
+     </definition>
+     <definition name="/login" template="login.jsp">
+         <put-attribute name="login" value="/login.jsp"/>   
+              
+     </definition>
+     <definition name="/logout" template="logout.jsp">
+         <put-attribute name="logout" value="logout.jsp"/>
+     </definition>
+ 
+       <definition name="/registration" template="registration.jsp">
+         <put-attribute name="registration" value="registration.jsp"/>
+     </definition>
+     
+     <definition name="/forgot" template="forgot.jsp">
+         <put-attribute name="forgot" value="forgot.jsp"/>
+     </definition>
+ 
+        <definition name="/addcart" template="addcart.jsp">
+         <put-attribute name="addcart" value="addcart.jsp"/>
+     </definition>
+     
+     <definition name="/aboutus" template="aboutus.jsp">
+         <put-attribute name="aboutus" value="aboutus.jsp"/>
+     </definition>
+     
+      <definition name="/services" template="services.jsp">
+         <put-attribute name="services" value="services.jsp"/>
+        
+          <put-attribute name="footer" value="footer.jsp"/>
+     </definition>
+    
+     <definition name="/contactus" template="contactus.jsp">
+         <put-attribute name="contactus" value="contactus.jsp"/>
+     </definition>
+      
+        <definition name="/ourblog" template="ourblog.jsp">
+         <put-attribute name="ourblog" value="ourblog.jsp"/>
+     </definition>
+    
+</tiles-definitions>
+    
