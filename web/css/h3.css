@@ -1,0 +1,103 @@
+#menuImage
+{
+   //background-color: #1F2426;// #224E90;
+background-image: url('../images/wooden2.jpg');
+height: 35px;
+opacity: 1;
+}
+#show
+{
+    //background-color: red;
+    margin-left: 600px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    height: 35px;
+    width: 180px;
+    position: relative;
+    float: left;
+    cursor:pointer;
+}
+
+#search
+{
+position: relative;
+   // background-color: red;
+    margin-left: 1100px;
+    height: 35px;
+}
+.searchform {
+	margin: 0 20px;
+}
+form.searchform {
+	//margin-top: -54px;
+	float:right;
+	position:relative;
+        z-index: 1;
+}
+form.searchform {
+		float:right;
+		padding:0 0 0 0;
+		margin:0 10%;
+	}
+form.searchform .searchfield {
+		width:150px;
+                background-image: url('../images/wooden.jpg');
+                opacity: 1;
+                //background-color: #336680;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+	}
+input.searchfield {
+	width:150px;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+        //border-width: 0px;
+}
+input.searchfield:focus {
+	width:150px;
+}
+input.searchfield {
+	//background: #3d4549;
+        background-image: url('../images/wooden.jpg');
+                opacity: 1;
+	border: none;
+}
+
+input.searchfield:focus,
+input.searchfield:hover {
+	//background: #454c50;
+        background-image: url('../images/wooden.jpg');
+                opacity: 1;
+}
+
+input.searchfield {
+	border-radius:100em;
+	padding: 7px 30px 7px 12px;
+	width: 150px;
+}
+
+input.searchfield:focus {
+	width:220px;
+}
+input.searchfield {
+	color: white;//#333;
+        outline-width: 0;
+}
+
+form.searchform input.searchsubmit {
+	top:7px;
+	right:4px;
+	position: absolute;
+	width:20px;
+	height:20px;
+	opacity: .7;
+	background:rgba(0,0,0,0.5);
+	border-radius:50%;
+	padding:5px;
+}
+
+form.searchform input.searchsubmit:hover,
+form.searchform input.searchsubmit:focus {
+	opacity: 1;
+}

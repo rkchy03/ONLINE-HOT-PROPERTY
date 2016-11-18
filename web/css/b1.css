@@ -1,0 +1,75 @@
+/*#bgColorItems
+{
+    background-image: url('../images/main_bg.jpg');
+	//background-color:  #F8F8F8;
+	//height: 250px;
+}*/
+#assests_images
+{
+     background-image: url('../images/main_bg.jpg');
+//background-color: #EDF0F6;
+height: auto;// 500px;
+width: 988px;
+//margin-left: auto;
+position: relative;
+float: left;
+}
+#adds
+{
+    background-image: url('../images/main_bg.jpg');
+//background-color: #224E90;
+height: auto; //500px;
+width: 360px;
+//margin-left: 360px;
+float: left;
+}
+
+#square{
+     //background-color: white;
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 956px;//426px;//500px;//938px;
+    height: 330px;//500px;//200px;
+    display: block;
+    //box-shadow: 0px 0px 5px #1F2426;
+    //z-index: 1;
+    position: relative;
+    //float: left;
+}
+#small_square{
+    background-color: white;
+    //position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    width: 456px;
+    height: 250px;
+    display: block;
+    box-shadow: 0px 0px 5px #1F2426;
+    z-index: 1;
+    position: relative;
+    float: left;
+}
+#next
+{
+    float: left;
+}
+
+#heading
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #1F2426;
+    text-shadow: 1px 1px 1px gray;
+}
+
+
+/*#adds > hr
+{
+background: #1F2426;
+height: 500px;
+width: 360px;
+//margin-left: 360px;
+float: left;
+}*/

@@ -1,0 +1,17 @@
+#logo
+{
+//background-color: #EDF0F6;
+height: 100px;
+width: 360px;
+//margin-left: auto;
+position: absolute;
+float: left;
+}
+#slider
+{
+//background-color: #224E90;
+height: 100px;
+width: 988px;
+margin-left: 360px;
+float: left;
+}

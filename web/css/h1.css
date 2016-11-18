@@ -1,0 +1,53 @@
+.bgimage
+{
+background-image: url('../images/bg.jpg');
+//background-color: #636363;
+height: 25px;
+}
+#welcome
+{
+ height: 20px;
+ margin-left: 20px;
+ position: absolute;
+ float: left;
+ //background-color: red;
+}
+#login
+{
+ //background-color: red;
+ height: 20px;
+ margin-left: 1092px;
+ position: absolute;
+ float: left; 
+}
+/*#signup
+{
+ background-color: green;
+ height: 20px;
+  margin-left: 1200px;
+  float: left;
+}*/
+#login  a{
+   color:#1F2426;
+   text-decoration: none;    //Genericons font
+   font-size: 13px;
+   position: relative;
+   z-index: 2;
+   //margin-left: 50px;
+}
+/*#signup  a{
+   color:#1F2426;
+   text-decoration: none;
+   font-size: 13px;
+   position: relative;
+   z-index: 2;
+  // margin-left: 50px;
+}*/
+#welcome  a{
+   color:#1F2426;
+   text-decoration: none;
+   font-size: 13px;
+   position: relative;
+   z-index: 2;
+  // margin-left: 50px;
+}

@@ -1,0 +1,25 @@
+#bgColor
+{
+    background-image: url('../images/menuDark1.png');
+	//background-color: white;//#293033;// #EDF0F6;
+	height: 40px;
+        margin-top: -9px;
+}
+#home
+{
+//background-color: #EDF0F6;
+height: 40px;
+//width: 360px;
+margin-top: 3px;
+margin-left: 10px;
+position: absolute;
+float: left;
+}
+#menu
+{
+//background-color: #224E90;
+height: 40px;
+//width: 988px;
+margin-left: 70px;
+float: left;
+}

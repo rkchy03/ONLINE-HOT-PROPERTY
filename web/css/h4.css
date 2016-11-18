@@ -1,0 +1,52 @@
+#bgImage
+{
+	background-image: url('../images/background.jpg');
+	height: 100px;
+        margin-top: -9px;
+}
+#left{
+    width: 670px;
+    height: 90px;
+    float: left;
+    position: relative;
+    //background-color: green;
+    
+}
+#right{
+    margin-left: 8px;
+    width: 670px;
+    height: 90px;
+    float: left;
+    //background-color: red;
+}
+
+ul.mmm{
+  /* margin:0 ;
+    padding:0;*/
+    list-style:none;
+	
+//height:50px;  // to change height
+
+}
+ul.mmm {
+    font-size:16px;
+    //line-height:25px;
+    clear:both;
+   
+}
+ul.mmm li{
+   // background-color: red;
+margin-left: 300px;
+    margin-bottom: -12px;
+    font-size:17px;
+    list-style:none;
+font-family: Calibri;
+z-index: 10;
+	
+}
+ul.mmm a #in{
+
+    padding: 0;
+    text-decoration:none;
+    color: #1F2426;
+}
