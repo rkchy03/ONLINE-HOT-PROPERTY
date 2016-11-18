@@ -1,0 +1,89 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <result-types>
+            <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult"/>
+        </result-types>
+                <action name="">
+            <result type="tiles">/layout</result>
+        </action>
+        <action name="home">
+            <result type="tiles">/home</result>
+        </action>
+        <action name="login">
+            <result type="tiles">/login</result>
+        </action>
+        <action name="LoginAuth" class="com.hp.LoginAuth">
+            <!--result name="success">/profile.jsp</result-->
+            
+            <result name="success">/profile.jsp</result>
+            
+               <result name="error">/login.jsp</result>
+        </action>
+        
+        <action name="logout">
+            <result type="tiles">/logout</result>
+        </action>
+        
+    <action name="register">
+            <result type="tiles">/registration</result>
+        </action>
+        
+        
+    <action name="registrations" class="com.hp.Registration" method="execute">
+            <result name="success">/login.jsp</result>
+               <result name="error">/layout.jsp</result>
+    </action>
+                <action name="forgot">
+            <result type="tiles">/forgot</result>
+        </action>
+   
+      
+         <action name="forgotPassword" class="com.hp.ForgotPassword" method="execute">
+            <result name="success">/resetPassword.jsp</result>
+               <result name="error" type="tiles">/layout</result>
+         </action>
+         
+         <action name="resetPassword" class="com.hp.resetPassword" method="execute">
+            <result name="success">/login.jsp</result>
+               <result name="error">/resetPassword.jsp</result>
+         </action>
+         
+         <action name="addcart">
+             <result type="tiles">/addcart</result>
+         </action>
+         
+           <action name="Addcart" class="com.hp.Addcart" method="execute">
+            <result name="success">/addcart.jsp</result>
+               <result name="error">/profile.jsp</result>
+         </action>
+         
+       <action name="Addtosell">
+            <result>/addtosell.jsp</result>
+              
+         </action>
+         
+           <action name="Addnsell">
+            <result>/sell.jsp</result>
+         </action>
+       <action name="aboutus">
+             <result type="tiles">/aboutus</result>
+         </action>
+         <action name="services">
+             <result type="tiles">/services</result>
+         </action>
+    <action name="contactus">
+             <result type="tiles">/contactus</result>
+         </action>
+   <action name="ourblog">
+             <result type="tiles">/ourblog</result>
+         </action>
+   
+    </package>
+    
+</struts>
